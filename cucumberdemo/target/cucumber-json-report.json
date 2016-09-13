@@ -1,0 +1,400 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "verify signup page title",
+        "description": "",
+        "id": "gmail-signup;verify-signup-page-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 353415009,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Page title is \"Create your Google Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create your Google Account",
+                  "offset": 15
+                }
+              ],
+              "location": "GmailStepFile.verifyPageTitle(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Field error message validation",
+        "description": "",
+        "id": "gmail-signup;field-error-message-validation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3007848499,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill the details as \"akshay\",\"gupta\",\"akshay19vit\",\"\u003cpassword\u003e\",\"abcd1234@1324\",\"7387152444\",\"recover1234@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "akshay",
+                  "offset": 23
+                },
+                {
+                  "val": "gupta",
+                  "offset": 32
+                },
+                {
+                  "val": "akshay19vit",
+                  "offset": 40
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 54
+                },
+                {
+                  "val": "abcd1234@1324",
+                  "offset": 67
+                },
+                {
+                  "val": "7387152444",
+                  "offset": 83
+                },
+                {
+                  "val": "recover1234@gmail.com",
+                  "offset": 96
+                }
+              ],
+              "location": "GmailStepFile.fillDetails(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 368501387,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see error message saying \"That username is taken. Try another.\" located at \"errormsg_0_GmailAddress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "That username is taken. Try another.",
+                  "offset": 28
+                },
+                {
+                  "val": "errormsg_0_GmailAddress",
+                  "offset": 78
+                }
+              ],
+              "location": "GmailStepFile.getErrorMessage(String,String)"
+            },
+            "matchedColumns": [
+              7,
+              8
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Field error message validation",
+        "description": "",
+        "id": "gmail-signup;field-error-message-validation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2632915557,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill the details as \"akshay\",\"gupta\",\"akshay19432\",\"\u003cpassword\u003e\",\"abcd1234@1324\",\"7387152444\",\"recover1234@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "akshay",
+                  "offset": 23
+                },
+                {
+                  "val": "gupta",
+                  "offset": 32
+                },
+                {
+                  "val": "akshay19432",
+                  "offset": 40
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 54
+                },
+                {
+                  "val": "abcd1234@1324",
+                  "offset": 67
+                },
+                {
+                  "val": "7387152444",
+                  "offset": 83
+                },
+                {
+                  "val": "recover1234@gmail.com",
+                  "offset": 96
+                }
+              ],
+              "location": "GmailStepFile.fillDetails(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 298698778,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see error message saying \"These passwords don\u0027t match. Try again?\" located at \"errormsg_0_PasswdAgain\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "These passwords don\u0027t match. Try again?",
+                  "offset": 28
+                },
+                {
+                  "val": "errormsg_0_PasswdAgain",
+                  "offset": 81
+                }
+              ],
+              "location": "GmailStepFile.getErrorMessage(String,String)"
+            },
+            "matchedColumns": [
+              7,
+              8
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Field error message validation",
+        "description": "",
+        "id": "gmail-signup;field-error-message-validation;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2508773138,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill the details as \"akshay\",\"gupta\",\"akshay24463\",\"\u003cpassword\u003e\",\"abcd1234@1324\",\"73871522444\",\"recover1234@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "akshay",
+                  "offset": 23
+                },
+                {
+                  "val": "gupta",
+                  "offset": 32
+                },
+                {
+                  "val": "akshay24463",
+                  "offset": 40
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 54
+                },
+                {
+                  "val": "abcd1234@1324",
+                  "offset": 67
+                },
+                {
+                  "val": "73871522444",
+                  "offset": 83
+                },
+                {
+                  "val": "recover1234@gmail.com",
+                  "offset": 97
+                }
+              ],
+              "location": "GmailStepFile.fillDetails(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236070435,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see error message saying \"This phone number format is not recognized. Please check the country and number.\" located at \"errormsg_0_RecoveryPhoneNumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This phone number format is not recognized. Please check the country and number.",
+                  "offset": 28
+                },
+                {
+                  "val": "errormsg_0_RecoveryPhoneNumber",
+                  "offset": 122
+                }
+              ],
+              "location": "GmailStepFile.getErrorMessage(String,String)"
+            },
+            "matchedColumns": [
+              7,
+              8
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Field error message validation using data table approach",
+        "description": "",
+        "id": "gmail-signup;field-error-message-validation-using-data-table-approach",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2437945809,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I fill the details",
+            "match": {
+              "location": "GmailStepFile.fillDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Value"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "FirstName",
+                  "akshay"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "LastName",
+                  "gupta"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "MailId",
+                  "akshay19vit"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "Password",
+                  "abcd1234@1324"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "CnfPassword",
+                  "abcd1234@1324"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "7387152444"
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "RecoverMail",
+                  "recover1234@gmail.com"
+                ],
+                "line": 25
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262453869,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I see error message saying \"That username is taken. Try another.\" located at \"errormsg_0_GmailAddress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "That username is taken. Try another.",
+                  "offset": 28
+                },
+                {
+                  "val": "errormsg_0_GmailAddress",
+                  "offset": 78
+                }
+              ],
+              "location": "GmailStepFile.getErrorMessage(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gmail Signup",
+    "description": "",
+    "id": "gmail-signup",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/gmail.feature"
+  }
+]
