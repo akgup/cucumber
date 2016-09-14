@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cucumber.runner.CucumberRunner" time="80.011" tests="54" errors="0" skipped="4" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\workspace\cucumberdemo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\workspace\cucumberdemo"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASKCOM~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5069790368951643088.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Java\jdk1.8.0_101;C:\Android\sdk\platform-tools;C:\Android\sdk\tools;C:\Users\ASK Computers\AppData\Roaming\npm;C:\Windows\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\ASK Computers"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ASK Computers"/>
+    <property name="java.class.path" value="/C:/Users/ASK Computers/eclipse/jee-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\workspace\cucumberdemo\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Then Page title is &quot;Gmail&quot;" classname="Scenario: Verify gmail login page title" time="0.001"/>
+  <testcase name="Scenario: Verify gmail login page title" classname="Scenario: Verify gmail login page title" time="0.002"/>
+  <testcase name="When I enter mail id as &quot;abc43urrrfe&quot;" classname="| abc43urrrfe | Sorry, Google doesn&apos;t recognize that email. |" time="0"/>
+  <testcase name="Then I see invalid mail id error &quot;Sorry, Google doesn&apos;t recognize that email.&quot;" classname="| abc43urrrfe | Sorry, Google doesn&apos;t recognize that email. |" time="0"/>
+  <testcase name="| abc43urrrfe | Sorry, Google doesn&apos;t recognize that email. |" classname="| abc43urrrfe | Sorry, Google doesn&apos;t recognize that email. |" time="0"/>
+  <testcase name="When I enter mail id as &quot;&quot;" classname="|  | Please enter your email. |" time="0"/>
+  <testcase name="Then I see invalid mail id error &quot;Please enter your email.&quot;" classname="|  | Please enter your email. |" time="0"/>
+  <testcase name="|  | Please enter your email. |" classname="|  | Please enter your email. |" time="0.004"/>
+  <testcase name="When I enter mail id as &quot;akshay19vit&quot;" classname="| akshay19vit | 244567bdkbf | Wrong password. Try again. |" time="0"/>
+  <testcase name="And password as &quot;244567bdkbf&quot;" classname="| akshay19vit | 244567bdkbf | Wrong password. Try again. |" time="0"/>
+  <testcase name="Then I see wrong password error &quot;Wrong password. Try again.&quot;" classname="| akshay19vit | 244567bdkbf | Wrong password. Try again. |" time="0"/>
+  <testcase name="| akshay19vit | 244567bdkbf | Wrong password. Try again. |" classname="| akshay19vit | 244567bdkbf | Wrong password. Try again. |" time="0"/>
+  <testcase name="When I enter mail id as &quot;akshay19vit&quot;" classname="| akshay19vit |  | Please enter your password. |" time="0"/>
+  <testcase name="And password as &quot;&quot;" classname="| akshay19vit |  | Please enter your password. |" time="0.002"/>
+  <testcase name="Then I see wrong password error &quot;Please enter your password.&quot;" classname="| akshay19vit |  | Please enter your password. |" time="0"/>
+  <testcase name="| akshay19vit |  | Please enter your password. |" classname="| akshay19vit |  | Please enter your password. |" time="0"/>
+  <testcase name="Then Page title is &quot;Create your Google Account&quot;" classname="Scenario: Verify signup page title" time="0"/>
+  <testcase name="Scenario: Verify signup page title" classname="Scenario: Verify signup page title" time="0"/>
+  <testcase name="When I fill the details as &quot;akshay&quot;,&quot;gupta&quot;,&quot;akshay19vit&quot;,&quot;abcd1234@1324&quot;,&quot;abcd1234@1324&quot;,&quot;7387152444&quot;,&quot;recover1234@gmail.com&quot;" classname="| akshay | gupta | akshay19vit | abcd1234@1324 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | That username is taken. Try another. | errormsg_0_GmailAddress |" time="0"/>
+  <testcase name="Then I see error message saying &quot;That username is taken. Try another.&quot; located at &quot;errormsg_0_GmailAddress&quot;" classname="| akshay | gupta | akshay19vit | abcd1234@1324 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | That username is taken. Try another. | errormsg_0_GmailAddress |" time="0"/>
+  <testcase name="| akshay | gupta | akshay19vit | abcd1234@1324 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | That username is taken. Try another. | errormsg_0_GmailAddress |" classname="| akshay | gupta | akshay19vit | abcd1234@1324 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | That username is taken. Try another. | errormsg_0_GmailAddress |" time="0"/>
+  <testcase name="When I fill the details as &quot;akshay&quot;,&quot;gupta&quot;,&quot;akshay19432&quot;,&quot;abcd1234@1325&quot;,&quot;abcd1234@1324&quot;,&quot;7387152444&quot;,&quot;recover1234@gmail.com&quot;" classname="| akshay | gupta | akshay19432 | abcd1234@1325 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | These passwords don&apos;t match. Try again? | errormsg_0_PasswdAgain |" time="0.001"/>
+  <testcase name="Then I see error message saying &quot;These passwords don&apos;t match. Try again?&quot; located at &quot;errormsg_0_PasswdAgain&quot;" classname="| akshay | gupta | akshay19432 | abcd1234@1325 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | These passwords don&apos;t match. Try again? | errormsg_0_PasswdAgain |" time="0"/>
+  <testcase name="| akshay | gupta | akshay19432 | abcd1234@1325 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | These passwords don&apos;t match. Try again? | errormsg_0_PasswdAgain |" classname="| akshay | gupta | akshay19432 | abcd1234@1325 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | These passwords don&apos;t match. Try again? | errormsg_0_PasswdAgain |" time="0.002"/>
+  <testcase name="When I fill the details as &quot;akshay&quot;,&quot;gupta&quot;,&quot;akshay24463&quot;,&quot;abcd1234@1324&quot;,&quot;abcd1234@1324&quot;,&quot;73871522444&quot;,&quot;recover1234@gmail.com&quot;" classname="| akshay | gupta | akshay24463 | abcd1234@1324 | abcd1234@1324 | 73871522444 | recover1234@gmail.com | This phone number format is not recognized. Please check the country and number. | errormsg_0_RecoveryPhoneNumber |" time="0"/>
+  <testcase name="Then I see error message saying &quot;This phone number format is not recognized. Please check the country and number.&quot; located at &quot;errormsg_0_RecoveryPhoneNumber&quot;" classname="| akshay | gupta | akshay24463 | abcd1234@1324 | abcd1234@1324 | 73871522444 | recover1234@gmail.com | This phone number format is not recognized. Please check the country and number. | errormsg_0_RecoveryPhoneNumber |" time="0.001"/>
+  <testcase name="| akshay | gupta | akshay24463 | abcd1234@1324 | abcd1234@1324 | 73871522444 | recover1234@gmail.com | This phone number format is not recognized. Please check the country and number. | errormsg_0_RecoveryPhoneNumber |" classname="| akshay | gupta | akshay24463 | abcd1234@1324 | abcd1234@1324 | 73871522444 | recover1234@gmail.com | This phone number format is not recognized. Please check the country and number. | errormsg_0_RecoveryPhoneNumber |" time="0.002"/>
+  <testcase name="When I fill the details as &quot;akshay&quot;,&quot;gupta&quot;,&quot;akshay&amp;*@!$&quot;,&quot;abcd1234@1324&quot;,&quot;abcd1234@1324&quot;,&quot;7387152444&quot;,&quot;recover1234@gmail.com&quot;(| akshay | gupta | akshay&amp;*@!$ | abcd1234@1324 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | Please use only letters " classname="When I fill the details as &quot;akshay&quot;,&quot;gupta&quot;,&quot;akshay&amp;*@!$&quot;,&quot;abcd1234@1324&quot;,&quot;abcd1234@1324&quot;,&quot;7387152444&quot;,&quot;recover1234@gmail.com&quot;(| akshay | gupta | akshay&amp;*@!$ | abcd1234@1324 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | Please use only letters (a-z), numbers, and periods. | errormsg_0_GmailAddress |)" time="0"/>
+  <testcase name="Then I see error message saying &quot;Please use only letters (a-z), numbers, and periods.&quot; located at &quot;errormsg_0_GmailAddress&quot;(| akshay | gupta | akshay&amp;*@!$ | abcd1234@1324 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | Please use only letters " classname="Then I see error message saying &quot;Please use only letters (a-z), numbers, and periods.&quot; located at &quot;errormsg_0_GmailAddress&quot;(| akshay | gupta | akshay&amp;*@!$ | abcd1234@1324 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | Please use only letters (a-z), numbers, and periods. | errormsg_0_GmailAddress |)" time="0"/>
+  <testcase name="| akshay | gupta | akshay&amp;*@!$ | abcd1234@1324 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | Please use only letters " classname="| akshay | gupta | akshay&amp;*@!$ | abcd1234@1324 | abcd1234@1324 | 7387152444 | recover1234@gmail.com | Please use only letters (a-z), numbers, and periods. | errormsg_0_GmailAddress |" time="0.001"/>
+  <testcase name="When I click on next step" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="When I click on next step" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="When I click on next step" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="Then I see name field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="Then I see name field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="Then I see name field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="And I see username field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="And I see username field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="And I see username field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="And I see password field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="And I see password field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="And I see password field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="And I see confirm password field mandatory" classname="Scenario: Verify mandatory fields" time="0.008">
+    <failure message="expected:&lt;[You can&apos;t leave this empty].&gt; but was:&lt;[Confirm your password here].&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[You can't leave this empty].> but was:<[Confirm your password here].>
+]]></failure>
+  </testcase>
+  <testcase name="And I see confirm password field mandatory" classname="Scenario: Verify mandatory fields" time="0.001">
+    <failure message="expected:&lt;[You can&apos;t leave this empty].&gt; but was:&lt;[Confirm your password here].&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[You can't leave this empty].> but was:<[Confirm your password here].>
+]]></failure>
+  </testcase>
+  <testcase name="And I see confirm password field mandatory" classname="Scenario: Verify mandatory fields" time="0.001"/>
+  <testcase name="Scenario: Verify mandatory fields" classname="Scenario: Verify mandatory fields" time="0.008">
+    <failure message="expected:&lt;[You can&apos;t leave this empty].&gt; but was:&lt;[Confirm your password here].&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[You can't leave this empty].> but was:<[Confirm your password here].>
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Verify mandatory fields" classname="Scenario: Verify mandatory fields" time="0.002">
+    <failure message="expected:&lt;[You can&apos;t leave this empty].&gt; but was:&lt;[Confirm your password here].&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[You can't leave this empty].> but was:<[Confirm your password here].>
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Verify mandatory fields" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="And I see birthday field mandatory" classname="Scenario: Verify mandatory fields" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I see birthday field mandatory" classname="Scenario: Verify mandatory fields" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I see birthday field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+  <testcase name="And I see gender field mandatory" classname="Scenario: Verify mandatory fields" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I see gender field mandatory" classname="Scenario: Verify mandatory fields" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I see gender field mandatory" classname="Scenario: Verify mandatory fields" time="0"/>
+</testsuite>

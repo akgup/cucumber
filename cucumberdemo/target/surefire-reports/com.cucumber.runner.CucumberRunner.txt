@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.cucumber.runner.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 54, Failures: 4, Errors: 0, Skipped: 4, Time elapsed: 80.011 sec <<< FAILURE! - in com.cucumber.runner.CucumberRunner
+And I see confirm password field mandatory(Scenario: Verify mandatory fields)  Time elapsed: 0.008 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[You can't leave this empty].> but was:<[Confirm your password here].>
+
+Scenario: Verify mandatory fields  Time elapsed: 0.008 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[You can't leave this empty].> but was:<[Confirm your password here].>
+
+And I see confirm password field mandatory(Scenario: Verify mandatory fields)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[You can't leave this empty].> but was:<[Confirm your password here].>
+
+Scenario: Verify mandatory fields  Time elapsed: 0.002 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[You can't leave this empty].> but was:<[Confirm your password here].>
+
